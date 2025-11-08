@@ -28,7 +28,7 @@
                               columnsM="1" 
                               singleContainerFullSize="false">
                     <f:content>
-                        <Label id="idLblFName" text="{i18n>firstNameLbl}" />
+                      <Label id="idLblFName" text="{i18n>firstNameLbl}" />
                         <Input id="idInptFName" value="" />
                         <Label id="idLblLName" text="{i18n>lastNameLbl}" />
                         <Input id="idInptLName" value="" />
@@ -46,9 +46,14 @@
                         <Input id="idInputCC" value="" visible="false"/>
 
                     </f:content>
-                </f:SimpleForm>
+                
+                            </f:SimpleForm>
+            <core:Fragment fragmentName="com.training.exer4baraquiel.fragments.ShoppingCart" type="XML" />
+        
 
-                <Table id="idTableSCart" inset="false">
+
+
+                <!-- <Table id="idTableSCart" inset="false">
                     <headerToolbar>
                         <OverflowToolbar id="idOFT">
                             <content>
@@ -85,7 +90,7 @@
                             </cells>
                         </ColumnListItem>
                     </items>
-                </Table>
+                </Table> -->
 
             </VBox>
 
